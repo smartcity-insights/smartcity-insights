@@ -1,7 +1,7 @@
 
 
-export default function Mamber() {
+export default function Member() {
   return (
-    <div>Mamber</div>
+    <div>Member</div>
   )
 }

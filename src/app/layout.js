@@ -29,7 +29,9 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <Sidebar />
-        {children}
+        <div className="pl-[16%] ">
+          {children}
+        </div>
       </body>
     </html>
   );
