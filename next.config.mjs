@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  devIndicators: false
+  devIndicators: false,
+  images: {
+    domains: ['loremflickr.com'],
+  },
 };
 
 export default nextConfig;
