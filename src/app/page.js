@@ -18,7 +18,6 @@ export default async function Home() {
             ))
           }
         </div>
-        <p>123</p>
       </SidebarInset>
     </>
   );
