@@ -9,7 +9,7 @@ export default function Sidebar() {
       <Link
         key={index}
         href={path}
-        className="p-2 bg-black text-white hover:bg-gray-800 rounded flex justify-center m-0 transition duration-500"
+        className="p-2 bg-sidebar-primary text-sidebar-primary-foreground hover:bg-sidebar-accent rounded flex justify-center m-0 transition duration-500"
       >
         {desc}
       </Link>
@@ -17,7 +17,7 @@ export default function Sidebar() {
   })
 
   return (
-    <div className="fixed flex flex-col  h-screen  gap-3 w-[15%] bg-black py-2">
+    <div className="fixed flex flex-col h-screen gap-3 w-[15%] py-2 bg-gray-900 text-gray-100">
       {sidebarContent}
     </div>
   )

@@ -29,8 +29,6 @@ export default function Layout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* sidebar */}
-
-
         <SidebarProvider>
           <AppSidebar />
           <main>
@@ -38,8 +36,6 @@ export default function Layout({ children }) {
             {children}
           </main>
         </SidebarProvider>
-
-
         {/* end of sidebar */}
       </body>
     </html>

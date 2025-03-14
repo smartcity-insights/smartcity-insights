@@ -28,13 +28,13 @@ import { teamSwithcerData as data } from "@/assets/staticData"
 
 export function AppSidebar() {
   return (
-    <Sidebar>
+    <Sidebar className="dark">
       {/* content */}
       <SidebarContent>
         {/* group */}
         <SidebarGroup>
           <SidebarGroupContent>
-            <SidebarMenu>
+            <SidebarMenu className="text-white">
               <NavMain items={data.navMain} />
               <NavProjects projects={data.projects} />
             </SidebarMenu>
@@ -43,7 +43,10 @@ export function AppSidebar() {
       </SidebarContent>
       {/* footer */}
       <SidebarFooter>
-        <TeamSwitcher teams={data.teams} />
+        <TeamSwitcher
+          teams={data.teams}
+          className="text-white"
+        />
       </SidebarFooter>
     </Sidebar>
   )

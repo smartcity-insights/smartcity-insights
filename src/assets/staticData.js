@@ -15,6 +15,9 @@ import {
   Settings2,
   SquareTerminal,
 } from "lucide-react"
+// unsplash
+import { createApi } from "unsplash-js";
+
 
 // sidebar menu content
 const sidebarMenu = [
@@ -111,4 +114,4 @@ const teamSwithcerData = {
 }
 
 
-export { sidebarMenu, teamSwithcerData };
+export { sidebarMenu, teamSwithcerData }  

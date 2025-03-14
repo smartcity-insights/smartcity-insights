@@ -3,10 +3,7 @@ import ProjectCard from "@/components/shared/ProjectCard";
 // shacdcn/ui
 import { SidebarInset } from "@/components/ui/sidebar"
 
-
-
-export default function Home() {
-
+export default async function Home() {
 
 
   return (
@@ -15,7 +12,10 @@ export default function Home() {
         <div className="flex flex-wrap w-full px-6 gap-4">
           {
             Array.from({ length: 10 }).map((_, index) => (
-              <ProjectCard key={index} />
+              <ProjectCard
+                key={index}
+                photo={photos}
+              />
             ))
           }
         </div>
