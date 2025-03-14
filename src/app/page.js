@@ -14,7 +14,6 @@ export default async function Home() {
             Array.from({ length: 10 }).map((_, index) => (
               <ProjectCard
                 key={index}
-                photo={photos}
               />
             ))
           }

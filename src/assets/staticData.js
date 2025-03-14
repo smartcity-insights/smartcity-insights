@@ -15,8 +15,7 @@ import {
   Settings2,
   SquareTerminal,
 } from "lucide-react"
-// unsplash
-import { createApi } from "unsplash-js";
+
 
 
 // sidebar menu content
